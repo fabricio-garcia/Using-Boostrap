@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 625038ba6a4aea2ac02be01b1e9f8118b19fd19e fabricio-garcia <gael.fabricio@gmail.com> 1569192936 -0500	branch: Created from master
+625038ba6a4aea2ac02be01b1e9f8118b19fd19e ccc215016cc187c973cecbcc252d37d99b0b5fb4 fabricio-garcia <gael.fabricio@gmail.com> 1569205864 -0500	commit: Add folder structure and dependencies to project
+ccc215016cc187c973cecbcc252d37d99b0b5fb4 38e622f1cb9fcf16a54ccc29d1755da5821e288f fabricio-garcia <gael.fabricio@gmail.com> 1569282345 -0500	commit: Add normalize.css
+38e622f1cb9fcf16a54ccc29d1755da5821e288f 97aa2c37869a357a298c5139b7eafb314377c258 fabricio-garcia <gael.fabricio@gmail.com> 1569282873 -0500	commit: Add style.min.css
+97aa2c37869a357a298c5139b7eafb314377c258 7ceb1c5a2c8108f1c346099b2918a51c974ffa4d fabricio-garcia <gael.fabricio@gmail.com> 1569289695 -0500	commit: Add BootstrapCDN v.4.3.1
+7ceb1c5a2c8108f1c346099b2918a51c974ffa4d e0ca3c4bfa2bacca996d65736574b6e968cb5544 fabricio-garcia <gael.fabricio@gmail.com> 1569290375 -0500	commit: Add global style in style.css

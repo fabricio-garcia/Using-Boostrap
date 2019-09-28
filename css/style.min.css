@@ -4,11 +4,11 @@ body{margin:0}
 main{display:block}
 h1{font-size:2em;margin:.67em 0}
 hr{box-sizing:content-box;height:0;overflow:visible}
-pre{font-family:monospace,monospace;font-size:1em}
+pre{font-family:monospace;font-size:1em}
 a{background-color:transparent}
 abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
 b,strong{font-weight:bolder}
-code,kbd,samp{font-family:monospace,monospace;font-size:1em}
+code,kbd,samp{font-family:monospace;font-size:1em}
 small{font-size:80%}
 sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
 sub{bottom:-.25em}
@@ -33,4 +33,21 @@ details{display:block}
 summary{display:list-item}
 template{display:none}
 [hidden]{display:none}
-*{box-sizing:border-box}
+html{box-sizing:border-box}
+*,::after,::before{box-sizing:inherit;list-style:none;outline:0 none}
+.content-box-element{box-sizing:content-box}
+body{background-color:#f4f5f6;color:#333;font-size:13px;line-height:18px;font-family:'Roboto Condensed',sans-serif;overflow-x:hidden}
+.container-fluid,.custom-container{max-width:1310px;margin-right:auto;margin-left:auto}
+.navbar{position:relative}
+.header{width:100%}
+.header:first-child{background-color:#f72210}
+.header:first-child p{width:100px;color:#fff}
+.header:last-child{padding:15px 15px 15px 0;background-color:#fff;border:2px solid #f4f5f6}
+.header:last-child .navbar{height:24px}
+.header:last-child .form-inline .form-control{width:65px;height:24px;color:rgba(0,0,0,.55);background-color:#fff;font-size:16px}
+.header:last-child .form-inline .btn{background:url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat #fff;width:20px;height:20px}
+.header .navbar-brand svg{width:132px;height:20px;fill:#fff}
+.nav-item{font-size:21px}
+@media screen and (min-width:992px){
+.header .navbar-brand svg{width:396px;height:60px;fill:#fff}
+}
