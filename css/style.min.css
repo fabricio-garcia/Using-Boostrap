@@ -69,3 +69,92 @@ span[class=card-text]{padding-top:1em;padding-bottom:1em;border-top:2px solid #f
 .culture-travel .card-body{padding:15px 10px 20px}
 .culture-travel .badge{font-size:13px}
 .culture-travel .badge a{color:#272727;background-color:#c2d4d7;font-weight:300}
+.opinion-item{border-radius:0}
+.opinion-item .wrap img{height:100%}
+.opinion-item .card-text{font-size:14px;line-height:21px;color:#555;text-transform:uppercase;margin-top:4px}
+#latest-news .latest-news-item .wrap{width:135px}
+#latest-news .latest-news-item .card-title{font-size:17px;font-weight:700;color:#333}
+#inthemag-left .card-body{display:block;background-color:#f4f5f6;color:#000;text-align:center;margin-bottom:0}
+#sign-up-box{max-width:300px;margin:0 auto 30px;border:1px solid #e5e5e5;background-color:#f4f5f6;padding:20px}
+#sign-up-box a:first-child{color:#333;font:bold 19px/19px "Roboto Condensed",sans-serif}
+#sign-up-box a:last-child{color:#333;font:bold 15px/15px "Roboto Condensed",sans-serif}
+#sign-up-box img{background-color:#f72210}
+#featured-slideshows .mag-title img,#fr-right img,#nw-editors-pick .mag-title img{background-color:#f72210}
+#featured-slideshows .mag-title,#fr-right .mag-title,#nw-editors-pick .mag-title{font:bold 19px/19px "Roboto Condensed",sans-serif}
+#fr-right .image-wrap,#second-row .image-wrap{display:block;position:relative;padding-bottom:100%;overflow:hidden;background-color:#f0f0f0;width:100%}
+#fr-right .mag-cat,#second-row .mag-cat{padding:4px 7px;background-color:#f72210;color:#fff;margin-right:7px;font:bold 16px "Roboto Condensed",sans-serif}
+#fr-right .cat,#second-row .cat{font:bold 16px "Roboto Condensed",sans-serif;color:#f72210}
+#fr-right .fr-image,#second-row .fr-image{transform:translate(-50%,0);position:absolute;top:0;left:50%;width:auto;height:100%;max-width:inherit}
+#fr-right h5,#second-row h5{font:bold 20px "Roboto Condensed",sans-serif;line-height:20px;position:relative;color:#000}
+#fr-right h5:hover,#nw-editors-pick h5:hover,#second-row h5:hover,#section-picks article h5:hover{text-decoration:underline;text-decoration-color:#f72210;cursor:pointer}
+#second-row .card-img-overlay{top:auto}
+#featured-slideshows .mag-title img{flex:none;display:block;width:29px;height:28px}
+#featured-slideshows .count-link{width:70px;height:52px;display:block;position:absolute;top:auto;font-weight:700;font-size:20px;line-height:58px;text-indent:5px;text-align:center;background:url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;color:#e9212e}
+#featured-slideshows .card-body h5,.block-title span{font-size:22px}
+#section-picks .block-title{color:#f72210;font:bold 16px/16px "Roboto Condensed",sans-serif;line-height:22px}
+.sub-section-picks ul{list-style-type:none}
+.sub-section-picks li:first-child{border-top:0;padding-top:0}
+.sub-section-picks li{border-top:1px solid #ddd;padding-top:10px;padding-bottom:10px}
+.sub-section-picks li img{width:135px;padding:0}
+.sub-info{font:bold 17px "Roboto Condensed",sans-serif;flex:1}
+.sub-info span:hover{color:#f72210;cursor:pointer}
+.sb-title{color:#f72210;font:bold 16px/16px "Roboto Condensed",sans-serif;padding-bottom:11px}
+#subnews-block .col-lg-4,#subnews-block .col-lg-8{margin-bottom:40px}
+.subs-block{padding:30px;background-color:#f4f5f6;flex:1}
+.subs-image{position:relative;padding-bottom:13px;padding-right:90px;flex:none}
+.subs-image .mag-thumb{width:170px;height:228px}
+.subs-image .mag-thumb.current{position:absolute;top:13px;left:80px}
+.subs-info h3{font-size:24px;line-height:28px;margin-bottom:15px;font-family:"Roboto Condensed",sans-serif;font-weight:700}
+.nletter-info p,.subs-info p{margin-bottom:25px;font-weight:300;font-size:16px}
+.subs-info a{background-color:#f72210;display:inline-block;padding:10px 12px;color:#fff;font:bold 18px/18px "Roboto Condensed",sans-serif}
+.nletter-block{width:100%;flex:1}
+.nletter-block .nletter-image{max-width:191px;width:150%}
+.nletter-info{border:1px solid #ebebeb;padding:30px}
+.nletter-info h3{font-size:24px;font-weight:700;font-family:"Roboto Condensed",sans-serif;color:#333}
+.nletter-info a{padding:10px 12px;color:#fff;font:bold 18px/18px "Roboto Condensed",sans-serif;text-transform:uppercase;background-color:#f72210}
+.footer-content{padding-top:30px;padding-bottom:30px}
+.fr-footer .brand svg{display:block;width:236px;height:36px;margin-right:15px;margin-bottom:12px;fill:#f72210}
+.fr-footer .copyright{font-size:12px;line-height:12px;color:#666;margin-bottom:12px;font-family:Arial,Helvetica,sans-serif}
+.fr-footer ul{list-style-type:none}
+.fr-footer ul li:first-child{margin-left:0}
+.fr-footer ul li{margin-left:10px}
+.fr-footer .socials{margin-bottom:12px;height:24px}
+.footer-links,.footer-links-edition ul li a{padding-top:6px;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:15px;color:#666}
+.footer-links .footer-links-menu ul,.footer-links-edition ul{list-style-type:none;display:block}
+.footer-links ul li{display:inline-block;margin:6px 0;cursor:pointer}
+@media (max-width:764px){
+.subs-image{margin-bottom:15px;display:inline-block}
+.subs-info h3{font-size:20px}
+.nletter-info,.subs-info{text-align:center}
+.nletter-block .nletter-image{height:160px;width:100%;max-width:100%}
+}
+@media (max-width:764px) and (min-width:481px){
+#more-stories img{width:258px}
+.culture-travel img{height:480px;width:auto}
+.culture-travel{height:auto}
+.sub-section-picks li img{width:258px}
+}
+@media screen and (min-width:768px){
+body{font-size:15px;line-height:20px}
+#featured-stories,#top-story{height:1800px}
+#featured-slideshows .mag-title,#fr-right .mag-title,#nw-editors-pick .mag-title{border-bottom:1px solid #d9d9d9}
+#nw-editors-pick .mag-title{margin-left:15px;margin-right:15px}
+.footer-links ul li{border-right:1px solid #d9d9d9;padding-right:10px;margin-right:10px}
+}
+@media (max-width:992px){
+.navbar{position:fixed;width:100%;z-index:9999}
+.main-section{top:54px}
+}
+@media (min-width:992px){
+#featured-stories,#opinion,#top-story{height:1620px}
+.footer-content{padding-right:30px;padding-left:30px}
+}
+@media (min-width:1000px){
+#featured-stories,#opinion,#top-story{height:1670px}
+.nletter-block{height:301px}
+}
+@media (min-width:1200px){
+#featured-stories,#opinion,#top-story{height:1730px}
+.main-section #featured-stories .article .card-img-overlay{top:234px}
+.main-section-section #top-story .article .card-img-overlay{top:281px}
+}

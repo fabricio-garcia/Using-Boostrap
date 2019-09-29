@@ -150,11 +150,6 @@ p[class="card-text"] {
   padding: 8px 15px 9px;
 }
 
-.opinion-item .wrap {
-  width: 63px;
-  height: 63px;
-}
-
 #featured-stories .card .wrap {
   min-height: 33px;
 }
@@ -200,5 +195,3 @@ span[class="card-text"] {
   background-color: #c2d4d7;
   font-weight: 300;
 }
-
-
