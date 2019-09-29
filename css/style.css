@@ -95,13 +95,110 @@ body {
   }
 }
 
-/* * main-section Section */
+/* * Main Section */
 .main-section {
   background-color: white;
   padding-top: 20px;
 }
 
+/* * Featured Stories */
+
 p[class="card-text"] {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
+
+/* * Top Story */
+
+/* * Related Story */
+#top-story,
+#opinion {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+#top-story::-webkit-scrollbar,
+#opinion::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+#nw-editors-pick .card-img-overlay,
+#inthemag-left .card-img-overlay,
+#top-story .card .card-img-overlay,
+.main-section #featured-stories .card .card-img-overlay {
+  padding: 8px 15px 9px;
+  top: auto;
+  text-align: center;
+  width: fit-content;
+}
+
+#inthemag-left .card-img-overlay h5 {
+  width: 160px;
+}
+
+#inthemag-left .card-body h5 {
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+}
+
+#inthemag-left .card-img-overlay h5,
+#nw-editors-pick .card-img-overlay h5,
+.main-section #featured-stories .card .card-img-overlay h5 {
+  font-size: 17px;
+  font-weight: bold;
+  width: auto;
+  padding: 8px 15px 9px;
+}
+
+.opinion-item .wrap {
+  width: 63px;
+  height: 63px;
+}
+
+#featured-stories .card .wrap {
+  min-height: 33px;
+}
+
+#featured-stories .card:last-child .card-img-overlay {
+  width: 50%;
+}
+
+.main-section #featured-stories .card:last-child .card-img-overlay h5 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#top-story #culture-story {
+  background-color: #f4f5f7;
+  margin-bottom: 20px;
+}
+
+span[class="card-text"] {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 2px solid #f4f5f6;
+  border-bottom: 2px solid #f4f5f6;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+/* * Culture & Travel Section */
+.culture-travel {
+  height: 410px;
+}
+
+.culture-travel .card-body {
+  padding: 15px 10px 20px;
+}
+
+.culture-travel .badge {
+  font-size: 13px;
+}
+
+.culture-travel .badge a {
+  color: #272727;
+  background-color: #c2d4d7;
+  font-weight: 300;
+}
+
+
