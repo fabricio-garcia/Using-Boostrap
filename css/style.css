@@ -27,7 +27,7 @@ body {
   overflow-x: hidden;
 }
 
-.custom-container,
+.container-header,
 .container-fluid {
   max-width: 1310px;
   margin-right: auto;
@@ -84,7 +84,7 @@ body {
 }
 
 .nav-item {
-  font-size: 21px;
+  font-size: 19px;
 }
 
 @media screen and (min-width: 992px) {
@@ -93,4 +93,15 @@ body {
     height: 60px;
     fill: white;
   }
+}
+
+/* * main-section Section */
+.main-section {
+  background-color: white;
+  padding-top: 20px;
+}
+
+p[class="card-text"] {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
