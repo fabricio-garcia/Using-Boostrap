@@ -83,8 +83,10 @@ span[class=card-text]{padding-top:1em;padding-bottom:1em;border-top:2px solid #f
 #sign-up-box a:first-child{color:#333;font:bold 19px/19px "Roboto Condensed",sans-serif}
 #sign-up-box a:last-child{color:#333;font:bold 15px/15px "Roboto Condensed",sans-serif}
 #sign-up-box img{background-color:#f72210}
-#editors-pick .mag-title img,#featured-slideshows .mag-title img,#magazine-right img{background-color:#f72210}
-#editors-pick .mag-title,#featured-slideshows .mag-title,#magazine-right .mag-title{font:bold 19px/19px "Roboto Condensed",sans-serif}
+#editors-pick .section-title img,#featured-slideshows .section-title img,#magazine-right img{background-color:#f72210}
+#editors-pick .section-title,#featured-slideshows .section-title,#magazine-right .section-title{font:bold 19px/19px "Roboto Condensed",sans-serif}
 #magazine-right .image-wrap,#second-row .image-wrap{display:block;position:relative;padding-bottom:100%;overflow:hidden;background-color:#f0f0f0;width:100%}
 #magazine-right .mag-cat,#second-row .mag-cat{padding:4px 7px;background-color:#f72210;color:#fff;margin-right:7px;font:bold 16px "Roboto Condensed",sans-serif}
 #magazine-right .cat,#second-row .cat{font:bold 16px "Roboto Condensed",sans-serif;color:#f72210}
+#featured-slideshows .section-title img{flex:none;display:block;width:29px;height:28px}
+#featured-slideshows .count-link{width:70px;height:52px;display:block;position:absolute;top:auto;font-weight:700;font-size:20px;line-height:58px;text-indent:5px;text-align:center;background:url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;color:#e9212e}
