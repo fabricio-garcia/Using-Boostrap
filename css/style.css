@@ -112,37 +112,68 @@ p[class="card-text"] {
   overflow: -moz-scrollbars-none;
 }
 
-#top-story::-webkit-scrollbar,
-#opinion::-webkit-scrollbar {
-  width: 0 !important;
+#magazine-right .fr-image,
+#second-row .fr-image {
+  transform: translate(-50%, 0%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: auto;
+  height: 100%;
+  max-width: inherit;
 }
 
-#nw-editors-pick .card-img-overlay,
-#inthemag-left .card-img-overlay,
+#magazine-right h5,
+#second-row h5 {
+  font: bold 20px "Roboto Condensed", sans-serif;
+  line-height: 20px;
+  position: relative;
+  color: black;
+}
+
+#magazine-main .card-img-overlay h5 {
+  width: 160px;
+}
+
+#magazine-main .card-body h5 {
+  text-transform: uppercase;
+}
+
+#featured-slideshows .card-body h5,
+.block-title span {
+  font-size: 22px;
+}
+
+#magazine-main .card-img-overlay h5,
+#editors-pick .card-img-overlay h5,
+.main-section #featured-stories .card .card-img-overlay h5 {
+  font-size: 17px;
+  font-weight: bold;
+  width: auto;
+  padding: 8px 15px 9px;
+}
+
+#magazine-right h5:hover,
+#second-row h5:hover,
+#editors-pick h5:hover,
+#section-picks article h5:hover {
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+  cursor: pointer;
+}
+
+#second-row .card-img-overlay {
+  top: auto;
+}
+
+#editors-pick .card-img-overlay,
+#magazine-main .card-img-overlay,
 #top-story .card .card-img-overlay,
 .main-section #featured-stories .card .card-img-overlay {
   padding: 8px 15px 9px;
   top: auto;
   text-align: center;
   width: fit-content;
-}
-
-#inthemag-left .card-img-overlay h5 {
-  width: 160px;
-}
-
-#inthemag-left .card-body h5 {
-  font: bold 18px/18px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-}
-
-#inthemag-left .card-img-overlay h5,
-#nw-editors-pick .card-img-overlay h5,
-.main-section #featured-stories .card .card-img-overlay h5 {
-  font-size: 17px;
-  font-weight: bold;
-  width: auto;
-  padding: 8px 15px 9px;
 }
 
 .opinion-item .wrap {
@@ -221,7 +252,7 @@ span[class="card-text"] {
   color: #333;
 }
 
-#inthemag-left .card-body {
+#magazine-main .card-body {
   display: block;
   background-color: #f4f5f6;
   color: black;
@@ -250,3 +281,42 @@ span[class="card-text"] {
 #sign-up-box img {
   background-color: #f72210;
 }
+
+#magazine-right img,
+#editors-pick .mag-title img,
+#featured-slideshows .mag-title img {
+  background-color: #f72210;
+}
+
+#magazine-right .mag-title,
+#editors-pick .mag-title,
+#featured-slideshows .mag-title {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+}
+
+#magazine-right .image-wrap,
+#second-row .image-wrap {
+  display: block;
+  position: relative;
+  padding-bottom: 100%;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  width: 100%;
+}
+
+#magazine-right .mag-cat,
+#second-row .mag-cat {
+  padding: 4px 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+  font: bold 16px "Roboto Condensed", sans-serif;
+}
+
+#magazine-right .cat,
+#second-row .cat {
+  font: bold 16px "Roboto Condensed", sans-serif;
+  color: #f72210;
+}
+
+
