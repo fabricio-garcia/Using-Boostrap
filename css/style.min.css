@@ -48,9 +48,6 @@ body{background-color:#f4f5f6;color:#333;font-size:13px;line-height:18px;font-fa
 .header:last-child .form-inline .btn{background:url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat #fff;width:20px;height:20px}
 .header .navbar-brand svg{width:132px;height:20px;fill:#fff}
 .nav-item{font-size:19px}
-@media screen and (min-width:992px){
-.header .navbar-brand svg{width:396px;height:60px;fill:#fff}
-}
 .main-section{background-color:#fff;padding-top:20px}
 p[class=card-text]{font-family:Arial,Helvetica,sans-serif;font-size:15px}
 #opinion,#top-story{-ms-overflow-style:none;overflow:-moz-scrollbars-none}
@@ -112,3 +109,12 @@ span[class=card-text]{padding-top:1em;padding-bottom:1em;border-top:2px solid #f
 .newsletter-info{border:1px solid #ebebeb;padding:30px}
 .newsletter-info h3{font-size:24px;font-weight:700;font-family:"Roboto Condensed",sans-serif;color:#333}
 .newsletter-info a{padding:10px 12px;color:#fff;font:bold 18px/18px "Roboto Condensed",sans-serif;text-transform:uppercase;background-color:#f72210}
+.footer{padding-top:30px;padding-bottom:30px}
+.footer-container .brand svg{display:block;width:236px;height:36px;margin-right:15px;margin-bottom:12px;fill:#f72210}
+.footer-container .copyright{font-size:12px;line-height:12px;color:#666;margin-bottom:12px;font-family:Arial,Helvetica,sans-serif}
+.footer-container ul{list-style-type:none}
+.footer-container ul li{margin-left:10px}
+.footer-container .socials{margin-bottom:12px;height:24px}
+.footer-links,.footer-links-edition ul li a{padding-top:6px;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:15px;color:#666}
+.footer-links .footer-links-menu ul,.footer-links-edition ul{list-style-type:none;display:block}
+.footer-container ul li:first-child{margin-left:0}
