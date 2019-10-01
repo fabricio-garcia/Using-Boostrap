@@ -577,6 +577,7 @@ span[class="card-text"] {
   }
 
   .main-section {
+    padding-top: 5em;
     top: 54px;
   }
 }

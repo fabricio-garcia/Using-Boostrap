@@ -134,7 +134,7 @@ span[class=card-text]{padding-top:1em;padding-bottom:1em;border-top:2px solid #f
 }
 @media (max-width:992px){
 .navbar{position:fixed;width:100%;z-index:9999}
-.main-section{top:54px}
+.main-section{padding-top:5em;top:54px}
 }
 @media (min-width:992px){
 #featured-stories,#opinion,#top-story{height:1620px}
