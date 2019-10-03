@@ -577,6 +577,7 @@ span[class="card-text"] {
   }
 
   .main-section {
+    padding-top: 5em;
     top: 54px;
   }
 }
@@ -627,6 +628,10 @@ span[class="card-text"] {
 
 /* Extra small */
 @media (max-width: 764px) {
+  .main-section {
+    padding-top: 7em;
+  }
+
   .subscribe-newsletter-image {
     margin-bottom: 15px;
     display: inline-block;
