@@ -30,5 +30,5 @@ You can find the original project specification [here](https://www.theodinprojec
 
 ## Live version
 
-- https://fabricio-garcia.github.io/Using-Bootstrap/
+- https://fabricio-garcia.github.io/Using-Boostrap/
 
